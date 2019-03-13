@@ -16,8 +16,9 @@ import React from 'react';
 //Root Functional Component to Init the App
 const ComponentsDemo = () => (
     //First View with Styling to center items containing a Text View 
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>My Resume</Text>
+    <View style={{ flex: 1 }}>
+        {/* <Text>My Resume</Text> */}
+        <Header headerText={'Resume App'} />
     </View>
 );
 
