@@ -21,8 +21,8 @@ const ComponentsDemo = () => (
         <View>
             <ProfilePic />
             <Summary summaryHeading={'Summary'} summary={'Summary place holder'} />
-            <Experience headerText={'Experience Place Holder'} />
-            <Education headerText={'Education Place Holder'} />
+            <Experience expHeading={'Experience'} experience={'Placeholder'} />
+            <Education eduHeading={'Education'} education={'Placeholder'} />
             <Footer footerText={'CopyRights 2019'} />
         </View>
     </ScrollView>

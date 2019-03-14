@@ -11,6 +11,8 @@ const Summary = (props) => {
             <Text style={headingStyle}>{props.summaryHeading}</Text>
             <View style={viewStyle}>
                 <Text style={textStyle}>{props.summary}</Text>
+                <Text style={textStyle}>{props.summary}</Text>
+                <Text style={textStyle}>{props.summary}</Text>
             </View>
         </View>
     );
