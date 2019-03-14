@@ -17,15 +17,14 @@ const Footer = (props) => {
 //Style the contents
 const styles = {
     viewStyle: {
-        flexDirection: 'row',
         alignItems: "center",
         justifyConents: "center",
         backgroundColor: '#F8F8F8',
         marginBottom: 15,
         height: 30,
         paddingBottom: 15,
-        position: "absolute", // To make it at the bottom
-        bottom: 0 // To make it at the bottom
+        // position: "absolute", // To make it at the bottom
+        // bottom: 0 // To make it at the bottom
     },
     textStyle: {
         // alignSelf: 'center', // making text appear in center
