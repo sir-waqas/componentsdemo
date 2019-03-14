@@ -1,14 +1,14 @@
 //Imports with Destructuring
-import { Text, View } from 'react-native';
+import { Image, View } from 'react-native';
 import React from 'react';
 
 //Prepare the contents
 const ProfilePic = (props) => {
     //Destructuring the styles
-    const { textStyle, viewStyle } = styles;
+    const { imgStyle, viewStyle } = styles;
     return (
         <View style={viewStyle}>
-            <Text style={textStyle}>{props.headerText}</Text>
+            <Image style={imgStyle} source={require('./../img/pak.jpg')} />
         </View>
     );
 };
@@ -19,13 +19,13 @@ const styles = {
         backgroundColor: '#F8F8F8',
         justifyConents: 'center',
         alignItems: 'center',
-        height: 50,
+        height: 250,
         paddingTop: 15,
         position: 'relative'
     },
-    textStyle: {
-        fontSize: 16,
-        backgroundColor: 'white'
+    imgStyle: {
+        height: 200,
+        width: 200
     }
 };
 
